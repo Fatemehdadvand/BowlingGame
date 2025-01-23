@@ -151,7 +151,7 @@ public class GameManager: MonoBehaviour
         Debug.Log("Play Again Button Clicked");
         ResetGame();
         totalFallenPins = 0;
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     void GoToNextLevel()
     {
