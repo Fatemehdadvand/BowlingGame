@@ -176,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -335,7 +335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -401,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -588,7 +588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -1171,7 +1171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -1616,7 +1616,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986394290}
   serializedVersion: 4
-  m_Mass: 0.6
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  initialShotPower: 800
+  initialShotPower: 3600
   decelerationRate: 0.99
   followCamera: {fileID: 1956671714}
   mainCamera: {fileID: 137882083}
@@ -1862,7 +1862,7 @@ Transform:
   m_GameObject: {fileID: 1019578753}
   serializedVersion: 2
   m_LocalRotation: {x: -0.9999955, y: 0.00000011956844, z: 3.0066954e-10, w: -0.003015949}
-  m_LocalPosition: {x: 2.239, y: 1.18, z: 13.826}
+  m_LocalPosition: {x: 2.16, y: 1.19, z: 15}
   m_LocalScale: {x: 5, y: 4, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2294,7 +2294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -2360,7 +2360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -2426,7 +2426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -2470,13 +2470,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 94a85cda70eb6ed4cbfa1aea87f7b4f9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.609
   m_Pitch: 0.3
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 21
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2623,7 +2623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
@@ -3436,7 +3436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_Mass
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848146346892690961, guid: a083bcddb893ff74bb2faf55e835e299, type: 3}
       propertyPath: m_CollisionDetection
