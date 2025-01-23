@@ -62,7 +62,7 @@ public class BowlingBallController : MonoBehaviour
         else
         {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, rb.velocity.z * decelerationRate);
-            if(rb.velocity.magnitude < 0.5f)
+            if(rb.velocity.magnitude < 0.1f)
             {
                 rb.velocity = Vector3.zero;
                 isShot = false;

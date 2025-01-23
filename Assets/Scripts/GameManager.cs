@@ -15,7 +15,7 @@ public class GameManager: MonoBehaviour
     
     public TMP_Text bestScoreText;
     public int totalPins = 10;
-
+    public AudioSource PinFallSound;
     public string pinTag = "Pin";
     public string ballTag = "Ball";
     public TMP_Text pinCountText;
@@ -55,6 +55,7 @@ public class GameManager: MonoBehaviour
         if (other.CompareTag(ballTag))
         {
             ballThrown = true;
+            PinFallSound.Play();
         }
     }
 
